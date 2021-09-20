@@ -10,6 +10,7 @@ How to Use
 2. Boot EXE up and start :p
 
 Optional (if exe doesn't load the Program)
+
 3. Go into ShapeCalculations Folder
 4. go to the bin folder
 5. then Debug Folder
