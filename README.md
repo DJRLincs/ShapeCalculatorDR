@@ -1,4 +1,4 @@
-# ShapeCalculatorDR
+# ShapeCalculatorDR Open-Source
 A shape Calculator that does  Calculations for Circles Cuboids Rectangles and Spheres
 
 Hello and I hope you enjoy the Calculator
