@@ -33,10 +33,9 @@ Partial Class MainMenu
         'Btn_Rectangle
         '
         Me.Btn_Rectangle.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Btn_Rectangle.Location = New System.Drawing.Point(16, 21)
-        Me.Btn_Rectangle.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_Rectangle.Location = New System.Drawing.Point(12, 17)
         Me.Btn_Rectangle.Name = "Btn_Rectangle"
-        Me.Btn_Rectangle.Size = New System.Drawing.Size(223, 102)
+        Me.Btn_Rectangle.Size = New System.Drawing.Size(167, 83)
         Me.Btn_Rectangle.TabIndex = 1
         Me.Btn_Rectangle.Text = "Rectangle"
         Me.Btn_Rectangle.UseVisualStyleBackColor = False
@@ -44,10 +43,9 @@ Partial Class MainMenu
         'Btn_Circle
         '
         Me.Btn_Circle.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Btn_Circle.Location = New System.Drawing.Point(828, 21)
-        Me.Btn_Circle.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_Circle.Location = New System.Drawing.Point(621, 17)
         Me.Btn_Circle.Name = "Btn_Circle"
-        Me.Btn_Circle.Size = New System.Drawing.Size(223, 102)
+        Me.Btn_Circle.Size = New System.Drawing.Size(167, 83)
         Me.Btn_Circle.TabIndex = 2
         Me.Btn_Circle.Text = "Circle"
         Me.Btn_Circle.UseVisualStyleBackColor = False
@@ -55,10 +53,9 @@ Partial Class MainMenu
         'Btn_Cuboid
         '
         Me.Btn_Cuboid.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Btn_Cuboid.Location = New System.Drawing.Point(828, 437)
-        Me.Btn_Cuboid.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_Cuboid.Location = New System.Drawing.Point(621, 355)
         Me.Btn_Cuboid.Name = "Btn_Cuboid"
-        Me.Btn_Cuboid.Size = New System.Drawing.Size(223, 102)
+        Me.Btn_Cuboid.Size = New System.Drawing.Size(167, 83)
         Me.Btn_Cuboid.TabIndex = 4
         Me.Btn_Cuboid.Text = "Cuboid"
         Me.Btn_Cuboid.UseVisualStyleBackColor = False
@@ -66,10 +63,9 @@ Partial Class MainMenu
         'Btn_Sphere
         '
         Me.Btn_Sphere.BackColor = System.Drawing.SystemColors.Highlight
-        Me.Btn_Sphere.Location = New System.Drawing.Point(16, 437)
-        Me.Btn_Sphere.Margin = New System.Windows.Forms.Padding(4)
+        Me.Btn_Sphere.Location = New System.Drawing.Point(12, 355)
         Me.Btn_Sphere.Name = "Btn_Sphere"
-        Me.Btn_Sphere.Size = New System.Drawing.Size(223, 102)
+        Me.Btn_Sphere.Size = New System.Drawing.Size(167, 83)
         Me.Btn_Sphere.TabIndex = 3
         Me.Btn_Sphere.Text = "Sphere"
         Me.Btn_Sphere.UseVisualStyleBackColor = False
@@ -78,27 +74,27 @@ Partial Class MainMenu
         '
         Me.btn_Exit.BackColor = System.Drawing.SystemColors.ControlDark
         Me.btn_Exit.ForeColor = System.Drawing.Color.DarkRed
-        Me.btn_Exit.Location = New System.Drawing.Point(418, 392)
+        Me.btn_Exit.Location = New System.Drawing.Point(318, 296)
+        Me.btn_Exit.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btn_Exit.Name = "btn_Exit"
-        Me.btn_Exit.Size = New System.Drawing.Size(248, 101)
+        Me.btn_Exit.Size = New System.Drawing.Size(163, 51)
         Me.btn_Exit.TabIndex = 5
         Me.btn_Exit.Text = "Exit"
         Me.btn_Exit.UseVisualStyleBackColor = False
         '
         'MainMenu
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(1067, 554)
+        Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.btn_Exit)
         Me.Controls.Add(Me.Btn_Cuboid)
         Me.Controls.Add(Me.Btn_Sphere)
         Me.Controls.Add(Me.Btn_Circle)
         Me.Controls.Add(Me.Btn_Rectangle)
         Me.DoubleBuffered = True
-        Me.Margin = New System.Windows.Forms.Padding(4)
         Me.Name = "MainMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "ShapeCalculater"
