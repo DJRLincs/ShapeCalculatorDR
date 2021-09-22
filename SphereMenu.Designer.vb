@@ -46,7 +46,7 @@ Partial Class SphereMenu
         'txt_SphereInputRadius
         '
         Me.txt_SphereInputRadius.Location = New System.Drawing.Point(400, 236)
-        Me.txt_SphereInputRadius.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.txt_SphereInputRadius.Margin = New System.Windows.Forms.Padding(2)
         Me.txt_SphereInputRadius.Name = "txt_SphereInputRadius"
         Me.txt_SphereInputRadius.Size = New System.Drawing.Size(76, 20)
         Me.txt_SphereInputRadius.TabIndex = 6
@@ -64,7 +64,7 @@ Partial Class SphereMenu
         'btn_CalculateSphereVolume
         '
         Me.btn_CalculateSphereVolume.Location = New System.Drawing.Point(344, 297)
-        Me.btn_CalculateSphereVolume.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btn_CalculateSphereVolume.Margin = New System.Windows.Forms.Padding(2)
         Me.btn_CalculateSphereVolume.Name = "btn_CalculateSphereVolume"
         Me.btn_CalculateSphereVolume.Size = New System.Drawing.Size(114, 42)
         Me.btn_CalculateSphereVolume.TabIndex = 8

@@ -27,7 +27,13 @@
         Close()
     End Sub
 
-    Private Sub MainMenu_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+    Private Sub Btn_ConeMenu_Click(sender As Object, e As EventArgs) Handles Btn_ConeMenu.Click
+        Me.Hide()
+        ConeMenu.Show()
+    End Sub
 
+    Private Sub Btn_ImperialMenu_Click(sender As Object, e As EventArgs) Handles Btn_ImperialMenu.Click
+        Me.Hide()
+        ImperialMenu.Show()
     End Sub
 End Class
