@@ -83,7 +83,7 @@ Partial Class CircleMenu
         'btn_CalculateCircleArea
         '
         Me.btn_CalculateCircleArea.Location = New System.Drawing.Point(96, 288)
-        Me.btn_CalculateCircleArea.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btn_CalculateCircleArea.Margin = New System.Windows.Forms.Padding(2)
         Me.btn_CalculateCircleArea.Name = "btn_CalculateCircleArea"
         Me.btn_CalculateCircleArea.Size = New System.Drawing.Size(98, 40)
         Me.btn_CalculateCircleArea.TabIndex = 8
@@ -93,7 +93,7 @@ Partial Class CircleMenu
         'btn_CalculateCircleCircumference
         '
         Me.btn_CalculateCircleCircumference.Location = New System.Drawing.Point(589, 288)
-        Me.btn_CalculateCircleCircumference.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.btn_CalculateCircleCircumference.Margin = New System.Windows.Forms.Padding(2)
         Me.btn_CalculateCircleCircumference.Name = "btn_CalculateCircleCircumference"
         Me.btn_CalculateCircleCircumference.Size = New System.Drawing.Size(132, 40)
         Me.btn_CalculateCircleCircumference.TabIndex = 9
@@ -115,6 +115,7 @@ Partial Class CircleMenu
         Me.Controls.Add(Me.txt_CircleCircumferenceInputRadius)
         Me.Controls.Add(Me.txt_CircleAreaInputRadius)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "CircleMenu"
         Me.Text = "ShapeCalculater"
         Me.ResumeLayout(False)

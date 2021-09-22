@@ -46,6 +46,7 @@ Partial Class ConeMenu
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
         Me.Controls.Add(Me.Btn_Back)
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ConeMenu"
         Me.Text = "Form3"
         Me.ResumeLayout(False)

@@ -121,6 +121,7 @@ Partial Class MainMenu
         Me.Controls.Add(Me.Btn_Circle)
         Me.Controls.Add(Me.Btn_Rectangle)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "MainMenu"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide

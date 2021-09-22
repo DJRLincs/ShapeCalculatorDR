@@ -83,6 +83,7 @@ Partial Class SphereMenu
         Me.Controls.Add(Me.txt_SphereInputRadius)
         Me.Controls.Add(Me.Btn_Back)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "SphereMenu"
         Me.Text = "ShapeCalculater"
         Me.ResumeLayout(False)

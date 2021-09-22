@@ -137,6 +137,7 @@ Partial Class RectangleMenu
         Me.Controls.Add(Me.lbl_RectanglePerimeterOutput)
         Me.Controls.Add(Me.lbl_RectangleAreaOutput)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "RectangleMenu"
         Me.Text = "ShapeCalculater"
         Me.ResumeLayout(False)

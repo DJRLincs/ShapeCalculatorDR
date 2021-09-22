@@ -199,6 +199,7 @@ Partial Class ImperialMenu
         Me.Controls.Add(Me.Txt_Length)
         Me.Controls.Add(Me.Btn_Back)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "ImperialMenu"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds
         Me.Text = "Form3"

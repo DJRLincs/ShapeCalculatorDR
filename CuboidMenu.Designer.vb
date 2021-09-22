@@ -100,6 +100,7 @@ Partial Class CuboidMenu
         Me.Controls.Add(Me.txt_CuboidInputWidth)
         Me.Controls.Add(Me.txt_CuboidInputLength)
         Me.DoubleBuffered = True
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "CuboidMenu"
         Me.Text = "ShapeCalculater"
         Me.ResumeLayout(False)
