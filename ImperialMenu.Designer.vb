@@ -179,6 +179,8 @@ Partial Class ImperialMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.AutoValidate = System.Windows.Forms.AutoValidate.Disable
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(800, 450)
@@ -200,9 +202,11 @@ Partial Class ImperialMenu
         Me.Controls.Add(Me.Btn_Back)
         Me.DoubleBuffered = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "ImperialMenu"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds
-        Me.Text = "Form3"
+        Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "ImperialConvertMenu"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
